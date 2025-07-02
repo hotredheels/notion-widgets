@@ -1,0 +1,29 @@
+
+body {
+    background: linear-gradient(135deg, #fef6e4, #f3f0ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quote-box {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.author {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 1rem;
+}
